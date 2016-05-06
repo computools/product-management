@@ -8,7 +8,7 @@ import {Http} from "angular2/http";
 })
 export class ProductDetailComponent{
     pageTitle: string = 'Product Detail';
-    product: IProduct[];
+    product: {};
 
     constructor(private _routeParams: RouteParams, private _router: Router, private _http: Http){
         let id = +this._routeParams.get('id');

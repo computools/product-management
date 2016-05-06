@@ -7,7 +7,6 @@ import { ProductListComponent } from "./products/product-list.component";
 import { ProductService } from "./products/product.service";
 
 import { ROUTER_PROVIDERS, RouteConfig, ROUTER_DIRECTIVES } from 'angular2/router';
-import { ProductListComponent } from "./products/product-list.component";
 import { WelcomeComponent } from "./home/welcome.component";
 import {ProductDetailComponent} from "./products/product-detail.component";
 
